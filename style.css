@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e2a47; /* Bleu foncé pour l'arrière-plan */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.convertisseur {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #1a1e3f; /* Bordure en bleu encore plus foncé */
+  border-radius: 10px;
+  background-color: #2c3e6b; /* Fond du convertisseur bleu foncé */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.convertisseur h2 {
+  text-align: center;
+  color: #4e92d6; /* Bleu clair pour le titre */
+  margin-bottom: 20px;
+}
+
+.convertisseur label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.convertisseur select, .convertisseur input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #3b4c70; /* Bordure d'entrée un peu plus claire que le fond */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #3e4d74; /* Fond des champs de saisie bleu foncé */
+  color: #ffffff;
+}
+
+.convertisseur select:focus, .convertisseur input:focus {
+  border-color: #4e92d6; /* Changement de bordure au focus vers un bleu clair */
+  outline: none;
+}
+
+.convertisseur button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4e92d6; /* Bouton en bleu clair */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convertisseur button:hover {
+  background-color: #367cb7; /* Teinte plus foncée de bleu lors du survol */
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #4e92d6; /* Résultat affiché en bleu clair */
+}
